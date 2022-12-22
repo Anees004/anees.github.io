@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@600&display=swap");
+body {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.navbar {
+  display: flex;
+  position: relative;
+  margin-left: 45%;
+  padding-left: 2%;
+  top: 16px;
+  align-items: center;
+}
+.navbar a {
+  text-decoration: none;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.navbar a:hover {
+  transition-duration: 0.2s;
+  background-color: red;
+  border-radius: 5px;
+}
+.navbar h3 {
+  float: left;
+  font-style: italic;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+  margin: 0%;
+  margin-left: -83%;
+}
+.btnres {
+  margin-left: 3%;
+  text-decoration: none;
+  border-color: red;
+  padding: 7px 17px;
+  border-width: 1.5px;
+  border-radius: 5px;
+  background: none;
+}
+
+.btnres:hover {
+  transition-duration: 0.2s;
+  background-color: red;
+}
+.container p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+  text-transform: uppercase;
+}
+
+/* ............................wave hand................................... */
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+span {
+  font-size: 2em;
+}
+
+.container {
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 46px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.container img {
+  top: 15%;
+  position: absolute;
+  margin-left: 52%;
+  height: "470px";
+  width: "380px";
+}
+.btn {
+  border-radius: 55%;
+  padding: 25px;
+  border: none;
+  background: none;
+  font-size: 25px;
+  margin: 2px;
+}
+/* 
+.btn:hover {
+  transition-duration: 0.2s;
+  background-color: red;
+} */
+
+.social {
+  margin-top: 5%;
+}
+.about {
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 50%;
+}
+
+.about h5 {
+  font-size: 45px;
+  text-transform: capitalize;
+  margin-left: -63px;
+}
+
+.about-content {
+  font-size: 15px;
+  word-spacing: 11px;
+  line-height: 1.7;
+  text-align: justify;
+  margin-right: 8%;
+}
+
+#image-left {
+  top: 117%;
+  position: absolute;
+  margin-left: 10%;
+  height: "470px";
+  width: "380px";
+}
+
+.red {
+  color: rgb(211, 15, 15);
+}
+
+h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.get-text {
+  margin-top: 0px;
+  font-size: 12px;
+}
+
+.font-close span {
+  word-spacing: normal;
+  font-size: 26px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+hr {
+  margin-left: 50%;
+  margin-right: 13%;
+  border-top: 1.5px solid black;
+}
+
+.my-technologies {
+  text-align: center;
+  margin-left: 221px;
+  font-size: 14px;
+  color: rgb(185, 15, 15);
+}
+
+.my-tech {
+  text-align: center;
+  margin-left: 221px;
+  font-size: 12px;
+  word-spacing: 10px;
+  font-weight: 600;
+}
+.tech {
+  color: rgb(185, 15, 15);
+  font-size: 12px;
+  word-spacing: 0px;
+}
+table {
+  align-items: center;
+  justify-content: center;
+  margin-left: 47%;
+  word-spacing: 5px;
+  border-spacing: 30px;
+  font-size: small;
+}
+
+.card {
+  box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.2);
+  padding: 31px;
+  text-align: center;
+  background-color: white;
+  border-radius: 7%;
+  margin-top: 25px;
+  margin-left: 15%;
+}
+.card:hover {
+  transition-duration: 0.2s;
+  box-shadow: 0 1px 10px 0 rgb(193, 8, 8);
+}
+
+.second-lcard {
+  margin-left: 0%;
+}
+.th {
+  text-align: right;
+}
+tr {
+}
+.social-1 {
+  margin-left: 46.5%;
+  display: inline;
+  align-items: center;
+}
+
+.social-1 hr {
+  margin-right: 44%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.column2 {
+  float: left;
+  width: 35%;
+  padding: 0 10px;
+}
+
+.what-icn {
+  align-items: center;
+  margin-left: 10%;
+}
+
+.card2 {
+  box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  border-radius: 7%;
+  margin-top: 25px;
+  margin-left: 15%;
+}
+.card2:hover {
+  transition-duration: 0.2s;
+  box-shadow: 0 1px 10px 0 rgb(193, 8, 8);
+}
+
+.sec-row {
+  margin-left: 2%;
+}
+.column3 {
+  float: right;
+  margin-top: 3%;
+  width: 35%;
+  padding: 0 10px;
+  margin-right: 42%;
+}
