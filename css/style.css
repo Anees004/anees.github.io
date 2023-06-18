@@ -11,6 +11,10 @@ html {
 * {
   font-family: "Montserrat", sans-serif;
 }
+/*
+.nav {
+  display: flex;
+}
 .navbar {
   display: flex;
   position: relative;
@@ -100,6 +104,7 @@ html {
     transform: rotate(0deg);
   }
 }
+/*
 span {
   font-size: 2em;
 }
@@ -129,7 +134,7 @@ h2 {
 .container img {
   top: 15%;
   position: absolute;
-  margin-left: 52%;
+  margin-left: 55%;
   height: "470px";
   width: "380px";
 }
@@ -141,12 +146,13 @@ h2 {
   font-size: 25px;
   margin: 2px;
 }
+*/
 /* 
 .btn:hover {
   transition-duration: 0.2s;
   background-color: red;
 } */
-
+/*
 .social {
   margin-top: 5%;
 }
@@ -199,7 +205,7 @@ h4 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-hr {
+small-hr {
   margin-left: 50%;
   margin-right: 13%;
   border-top: 1.5px solid black;
@@ -306,3 +312,67 @@ tr {
   padding: 0 10px;
   margin-right: 42%;
 }
+*/
+/* ................................Resume............. */
+/*
+.cv {
+  background: rgb(229, 226, 226);
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  align-items: center;
+}
+
+.edbox {
+  display: flex;
+  padding-bottom: 4%;
+}
+.education {
+  margin-left: 5%;
+  width: 30%;
+}
+.heading {
+  font-size: 140%;
+  margin-bottom: 0;
+  margin-top: 3%;
+  color: rgb(99, 97, 97);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.education p {
+  margin: 0%;
+}
+
+.shead {
+  font-size: 13px;
+  margin-bottom: 0%;
+  margin-top: 2px;
+}
+
+.sshead {
+  font-size: 11px;
+  font-family: "Trebuchet MS";
+}
+
+.sshead-small {
+  font-size: 9px;
+  font-family: "Trebuchet MS";
+}
+
+.edupargr {
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+.awards {
+  width: 48%;
+  margin-left: 10%;
+}
+
+.list-items {
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+} */
